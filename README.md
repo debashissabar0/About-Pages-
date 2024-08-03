@@ -1,16 +1,19 @@
 # About-Pages-
 Java code About Pages create 
+&nbsp;
 
-<br>
 
 //code By Gymkhana Studio
 
 //gradle
+&nbsp;
 ```
 compile 'com.github.medyo:android-about-page:1.2.5'
 
 ```
+&nbsp;
 # example code
+&nbsp;
 ```
 View aboutPage = new AboutPage(this)
   .isRTL(false)
@@ -28,7 +31,7 @@ View aboutPage = new AboutPage(this)
   .addInstagram("medyo80")
   .create();
 ```
-
+&nbsp;
 # Add Description
 ```
 setDescription(String)
