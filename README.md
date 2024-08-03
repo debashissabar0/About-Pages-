@@ -10,7 +10,7 @@ Java code About Pages create
 compile 'com.github.medyo:android-about-page:1.2.5'
 
 ```
-###example code
+# example code
 ```
 View aboutPage = new AboutPage(this)
   .isRTL(false)
@@ -29,11 +29,11 @@ View aboutPage = new AboutPage(this)
   .create();
 ```
 
-###Add Description
+# Add Description
 ```
 setDescription(String)
 ```
-###Add Image
+# Add Image
 ```
 setImage(Int)
 ```
@@ -53,14 +53,14 @@ addInstagram(String AccountID)
 addGitHub(String AccountID)
 
 ```
-###Add Custom Element
+# Add Custom Element
 ```
 Element versionElement = new Element();
 versionElement.setTitle("Version 6.2");
 addItem(versionElement)
 
 ```
-###Available attributes for Element Class
+# Available attributes for Element Class
 ```
 Function: 															   Description:
 setTitle(String)														Set title of the element
@@ -73,7 +73,7 @@ setOnClickListener(View.OnClickListener)			If intent isn't suitable for you need
 
 ```
 
-###Example MainActivity.java
+# Example MainActivity.java
 ```
 import android.content.res.Configuration;
 import android.os.Bundle;
